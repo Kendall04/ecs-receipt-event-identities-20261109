@@ -12,3 +12,7 @@ unbuilt identity fixture. All receipts are `deployment=false`.
 The promotion pull request stays open. No AWS, secrets, deployment environments,
 image builds, ECR writes or infrastructure operations are part of this test.
 The GitHub OIDC token is used only by the pinned attestation action.
+
+Documentation event 1: unchanged synthetic application identity.
+
+Documentation event 2: trigger workflow_run while the promotion PR remains open.
