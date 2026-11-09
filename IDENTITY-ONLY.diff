@@ -1,0 +1,37 @@
+--- source/scripts/api_delivery/model.py
++++ trial/scripts/api_delivery/model.py
+@@ -4,7 +4,7 @@
+ import re
+ import subprocess
+ 
+-REPOSITORY = 'Kendall04/terragrunt_demo'
++REPOSITORY = 'Kendall04/ecs-receipt-event-identities-20261109'
+ DELIVERY = '.github/workflows/api-delivery.yml'
+ PROMOTION = '.github/workflows/api-promotion.yml'
+ 
+--- source/scripts/api_delivery/receipt-policy.json
++++ trial/scripts/api_delivery/receipt-policy.json
+@@ -1,9 +1,9 @@
+ {
+   "schema": "API_RECEIPT_POLICY_V1",
+-  "repository": "Kendall04/terragrunt_demo",
+-  "repository_id": "1143067989",
++  "repository": "Kendall04/ecs-receipt-event-identities-20261109",
++  "repository_id": "1451017327",
+   "owner_id": "66651825",
+-  "predicate_type": "https://github.com/Kendall04/terragrunt_demo/api-delivery/receipt/v1",
++  "predicate_type": "https://github.com/Kendall04/ecs-receipt-event-identities-20261109/api-delivery/receipt/v1",
+   "deployment": {
+     "caller": ".github/workflows/api-delivery.yml",
+     "signer": ".github/workflows/api-execute.yml",
+--- source/.github/workflows/api-evaluate.yml
++++ trial/.github/workflows/api-evaluate.yml
+@@ -40,7 +40,7 @@
+           "uses": "actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6",
+           "with": {
+             "subject-path": "evidence/slot.json",
+-            "predicate-type": "https://github.com/Kendall04/terragrunt_demo/api-delivery/receipt/v1",
++            "predicate-type": "https://github.com/Kendall04/ecs-receipt-event-identities-20261109/api-delivery/receipt/v1",
+             "predicate-path": "evidence/predicate.json",
+             "push-to-registry": false,
+             "create-storage-record": false

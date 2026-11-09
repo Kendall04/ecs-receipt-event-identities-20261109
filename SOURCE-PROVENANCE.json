@@ -1,0 +1,51 @@
+[
+  {
+    "path": "scripts/api_delivery/model.py",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "92d5122317f18c2aee75d01e7cbfe3f3aec02de65ce56e218315bf894793b873",
+    "trial_sha256": "da8ac6beb780837e939986f69289be4cc6ed241e5d06255e7c73fd01ac28e96e",
+    "identity_only": true
+  },
+  {
+    "path": "scripts/api_delivery/github.py",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "8f39a55f277286a2204215e1147801da25f30e903c2560af48a764b57f94aba1",
+    "trial_sha256": "8f39a55f277286a2204215e1147801da25f30e903c2560af48a764b57f94aba1",
+    "identity_only": true
+  },
+  {
+    "path": "scripts/api_delivery/receipts.py",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "cc9a34d39129ccf81b886508fb04d3f338e6f48ebc92e6d324002bab584daed1",
+    "trial_sha256": "cc9a34d39129ccf81b886508fb04d3f338e6f48ebc92e6d324002bab584daed1",
+    "identity_only": true
+  },
+  {
+    "path": "scripts/api_delivery/cli.py",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "b0eb0f54d47e4288e79821e258f651e29fd43863c2e69d520c1e70c2b7b81f98",
+    "trial_sha256": "b0eb0f54d47e4288e79821e258f651e29fd43863c2e69d520c1e70c2b7b81f98",
+    "identity_only": true
+  },
+  {
+    "path": "scripts/api_delivery/receipt-policy.json",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "2cdda2110b54aea82629dfa10d00c20c0632d8959bc2bb4701e5f6e663cbd827",
+    "trial_sha256": "3db132e15ce6f5846db39e8921329ef10b4d68c2a8ce7ae46f6415afa349fd27",
+    "identity_only": true
+  },
+  {
+    "path": ".github/workflows/api-promotion.yml",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "1b64c61fe186120c6cc2019862528ddad4317eed0cf115b1556794206b5d6072",
+    "trial_sha256": "1b64c61fe186120c6cc2019862528ddad4317eed0cf115b1556794206b5d6072",
+    "identity_only": true
+  },
+  {
+    "path": ".github/workflows/api-evaluate.yml",
+    "source_commit": "a07939b8d3b281b2a4f41c63350f29f3179ccca9",
+    "original_sha256": "707de5206594c3bb3e1fe5992502dc21d8bb03e8c72d3b4d9f280656fe0d5382",
+    "trial_sha256": "7b54256b249569a5674ffd7e05c8bed5c1f37e7097e208e303e35ddea486d22f",
+    "identity_only": true
+  }
+]

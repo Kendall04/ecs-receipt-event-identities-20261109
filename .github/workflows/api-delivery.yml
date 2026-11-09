@@ -1,0 +1,26 @@
+{
+  "name": "API automatic delivery",
+  "on": {
+    "push": {
+      "branches": [
+        "develop"
+      ]
+    }
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "jobs": {
+    "innocuous": {
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 2,
+      "steps": [
+        {
+          "name": "Complete harmless DEV event source",
+          "shell": "bash",
+          "run": "printf '%s\\n' 'Synthetic workflow: no build, no credentials, no deployment.'"
+        }
+      ]
+    }
+  }
+}
